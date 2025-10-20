@@ -1,41 +1,21 @@
-# Prerequisites
-*.d
+# Build and distribution directories
+build/
+dist/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Python cache
+__pycache__/
+*.py[cod]
 
-# Precompiled Headers
-*.gch
-*.pch
+# Virtual environments
+.env/
+.venv/
+ENV/
+venv/
 
-# Linker files
-*.ilk
+# Logs and temp files
+*.log
+.tmp/
 
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# IDE project files
+.vscode/
+.idea/
